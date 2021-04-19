@@ -50,10 +50,15 @@ body {
 }
 
 .nav a {
-  color: #bea59b;
+  color: #fff;
   padding: .5em;
   border-radius: 1em;
   text-decoration: none;
+}
+
+.nav a:focus, a:hover {
+  outline: .15em solid #bea59b;
+  outline-offset: .2em;
 }
 
 .banner {
@@ -61,6 +66,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "banner";
+  background-color: #522806;
   color: #fff;
   font-size: 1.5rem;
 }
@@ -93,6 +99,11 @@ body {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+}
+
+.banner a:focus, a:hover {
+  outline: .15em solid #bea59b;
+  outline-offset: .2em;
 }
 
 .ship {
